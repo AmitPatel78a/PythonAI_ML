@@ -1,0 +1,13 @@
+The analysis in the PAA 5_1 Amit File has been conducted on a set of data which can be found in the data folder. This csv file contains data for coupon hands outs.
+
+Thoughts: 
+The data was not a linear set of values, instead each of the columns represented segmented data chosen from a specific set of inputs. This stopped us from doing distribution analysis of this data.
+
+From the investigation above we can see the following:
+- The drivers who frequent bars more regularly tended to accept the coupons
+- Single people go more often, this is not what I was expecting and may indicate an issue in how we setup this data or are looking at it. We would have expected widowed or divorced people to drink more  tended to accept less often.
+
+Further investigation should center around:
+- If drivers are going the same way as the location, how much does that affect the outcome
+- Given what we know about other factors such as Age, does location direction play a significant role in the final outcome
+- Can we see if there is a correlation between Restaurant and Bar outcomes, for the above factors.
